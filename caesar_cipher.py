@@ -1,6 +1,5 @@
 class CaesarCipher:
     def receiveUserInput(self):
-
         self.text_tobe_processed = input("Enter Text to processed(Letters only): ")
         self.valid_input = False
         while self.text_tobe_processed:
